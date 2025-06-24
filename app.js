@@ -8,7 +8,7 @@ searchButton.addEventListener('click', () => {
 
 
    fetch(`https://newsapi.org/v2/everything?q=${searchInput.value}&
-    from=2025-05-24&sortBy=publishedAt&apiKey=dae2f2e4c7d5436fb2313e25e6a657b9`)
+    from=2025-05-24&sortBy=publishedAt&apiKey=`)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
